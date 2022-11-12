@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aleo&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width>, initial-scale=1.0">
+    <!-- CSS IMPORT -->
+    <link rel="stylesheet" href="CSS/RESTO CSS.css">
+    <!-- LIGHTBOX IMPORT -->
+    <link rel="stylesheet" href="CSS/lightbox.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- ICON IMPORT -->
+    <link rel="icon" href="slike/icon.png">
+    <title>Restoran Resto</title>
+</head>
+<body>
+        <img class="mobile" src="slike/Burger.png">
+        <div class="menimobile">
+          <button class="izlaz">X</button>
+          <ul>
+            <li><a class="am" href="#menu">Menu</a></li>
+            <li><a class="ad" href="#aboutus">About us</a></li>
+            <li><a class="ag" href="#gallery">Gallery</a></li>
+          </ul>
+        </div>
+     <header>
+         
+         <img src="slike/logo_head.png">
+
+         <ul class="glavnimeni">
+             <li><a class="active" href="#menu">Menu</a></li>
+             <li><a class="active" href="#aboutus">About us</a></li>
+             <li><a class="active" href="#gallery">Gallery</a></li> 
+         </ul>
+     </header>
+
+     <div class="imagesliderpozicija">
+     <div class="imageslider">
+        <div class="images">
+            <img class="img1" src="slike/hero.jpg">
+            <img class="img2" src="slike/fruit.jpg">
+            <img class="img3" src="slike/hero.jpg">
+            <img class="img4" src="slike/fruit.jpg">
+
+            <p class="p1">This Template Is Awsome</p>
+            <p class="p2">resto restaurant home page web site template</p>
+
+        </div>
+
+        <div class="btmsliders">
+                <span onclick="btmslide(1)"></span>
+                <span onclick="btmslide(2)"></span>
+                <span onclick="btmslide(3)"></span>
+                <span onclick="btmslide(4)"></span>
+        </div>
+
+        <div class="prev" onclick="slideslide(-1)"><span>❮</span></div>
+        <div class="next" onclick="slideslide(1)"><span>❯</span></div>
+
+     </div>
+    </div>
+     <section id="menu">
+         <div class="menidugme1">
+             <p>The Menu</p>
+         </div>
+
+         <div class="menipozicija">
+         <div class="menilista1">
+             <table  width="100%">
+                 <tr>
+                     <td class="naziv1">Voluptate cillum fugiat.</td>
+                     <td class="linija"></td>
+                     <td class="cena1">$50</td>
+                 </tr>
+
+                 <tr>
+                     <td class="sadrzaj1" colspan="3">Cheese, Tomato, Mushrooms, Onion.</td>
+                 </tr>
+
+                 <tr>
+                     <td class="naziv1">Metus varius laoreet.<br>
+                     <td class="linija"></td>
+                     <td class="cena1">$62</td>
+                 </tr>
+
+                 <tr>
+                     <td class="sadrzaj1" colspan="3">Chicken, Mozzarella cheese, Onions.</td>
+                 </tr>
+
+                 <tr>
+                    <td class="naziv1">Donec sodales magna.</td>
+                    <td class="linija"></td>
+                    <td class="cena1">$25</td>
+                </tr>
+
+                <tr>
+                    <td class="sadrzaj1" colspan="3">Tuna, Sweetcorn, Cheese.</td>
+                </tr>
+
+                <tr>
+                    <td class="naziv1">Sague velit cursus.</td>
+                    <td class="linija"></td>
+                    <td class="cena1">$30</td>
+                </tr>
+
+                <tr>
+                    <td class="sadrzaj1" colspan="3">Pineapple, Minced Beef, Cheese.</td>
+                </tr>
+             </table>
+         </div>
+
+         <div class="menilista2">
+            <table width="100%s">
+                <tr>
+                    <td class="naziv2">Arcu pede enim justo.</td>
+                    <td class="linija"></td>
+                    <td class="cena2">$45</td>
+                </tr>
+
+                <tr>
+                    <td class="sadrzaj2" colspan="3">Tuna, Sweetcorn, Cheese.</td>
+                </tr>
+
+                <tr>
+                    <td class="naziv2">Cras dapibussemper nisi.</td>
+                    <td class="linija"></td>
+                    <td class="cena2">$32</td>
+                </tr>
+
+                <tr>
+                    <td class="sadrzaj2" colspan="3">Pineapple, Minced Beef, Cheese.</td>
+                </tr>
+
+                <tr>
+                   <td class="naziv2">Quam semper libero.</td>
+                   <td class="linija"></td>
+                   <td class="cena2">$15</td>
+               </tr>
+
+               <tr>
+                <td class="sadrzaj2" colspan="3">Cheese, Tomato, Mushrooms, Onion.</td>
+               </tr>
+
+               <tr>
+                   <td class="naziv2" >Nam eget dui Etiam.</td>
+                   <td class="linija"></td>
+                   <td class="cena2">$35</td>
+               </tr>
+
+               <tr>
+                <td class="sadrzaj2" colspan="3">Chicken, Mozzarella cheese, Onions.</td>
+               </tr>
+            </table>
+         </div>
+         </div>
+
+         
+             <div  id="open">
+                 <button>View all menu | v</button>
+             </div>
+
+             <div class="modalbox" id="modalbox">
+                 <div class="modal">
+                     
+                    <div><img src="slike/logo_head.png"></div>
+                    
+                    <button id="close">X</button>
+
+                    <table width="100%" cellpadding="30px">
+                        <tr>
+                            <th class="meal">Meal</th>
+                            <th class="price">Price</th>
+                        </tr>
+        
+                        <tr>
+                            <td class="naziv1">Voluptate cillum fugiat.<br>
+                            <span class="sadrzaj1">Cheese, Tomato, Mushrooms, Onion.</span></td>
+                            <td class="cena1">$50</td>
+                        </tr>
+        
+                        <tr>
+                            <td class="naziv1">Metus varius laoreet.<br>
+                            <span class="sadrzaj1">Chicken, Mozzarella cheese, Onions.</span></td>
+                            <td class="cena1">$62</td>
+                        </tr>
+        
+                        <tr>
+                           <td class="naziv1">Donec sodales magna.<br>
+                           <span class="sadrzaj1" >Tuna, Sweetcorn, Cheese.</span></td>
+                           <td class="cena1">$25</td>
+                       </tr>
+        
+                       <tr>
+                           <td class="naziv1">Sague velit cursus.<br>
+                           <span class="sadrzaj1">Pineapple, Minced Beef, Cheese.</span></td>
+                           <td class="cena1">$30</td>
+                       </tr>
+        
+                       <tr>
+                            <td class="naziv2">Arcu pede enim justo.<br>
+                            <span class="sadrzaj2">Tuna, Sweetcorn, Cheese.</span></td>
+                            <td class="cena2">$45</td>
+                        </tr>
+        
+                        <tr>
+                            <td class="naziv2">Cras dapibussemper nisi.<br>
+                            <span class="sadrzaj2">Pineapple, Minced Beef, Cheese.</span></td>
+                            <td class="cena2">$32</td>
+                        </tr>
+        
+                        <tr>
+                           <td class="naziv2">Quam semper libero.<br>
+                           <span class="sadrzaj2">Cheese, Tomato, Mushrooms, Onion.</span></td>
+                           <td class="cena2">$15</td>
+                       </tr>
+        
+                       <tr>
+                           <td class="naziv2" >Nam eget dui Etiam.<br>
+                           <span class="sadrzaj2">Chicken, Mozzarella cheese, Onions.</span></td>
+                           <td class="cena2">$35</td>
+                       </tr>
+                    </table>
+                 </div>
+            </div>
+     </section>
+
+     <section id="aboutus">
+         <h1>ABOUT US</h1>
+
+         <p class="x1">Today's restaurant is theater on a grand scale.</p>
+
+         <div class="sve">
+             <div class="polovina polovina1">
+         <p class="x2">Lorem Ipsum is simply dummy text of the printing and type-setting industry. 
+             Lorem Ipsum has been the industry's standard dummy text ever <del>since the 1500s</del>,
+              <b>when an unknown printer</b> took a galley of type and scrambled it to make a type specimen book.
+               <b>It has survived not only five centuries</b>, but also the leap into electronic typesetting,
+                Lorem ipsum is made on the 25<sup>th</sup>April 1500.</p>
+
+         <p class="x3"><b>It was popularised:</b></p>
+
+         <ul class="x4">
+            <li>Lorem ipsum is simply dummy text of the printing</li>
+            <li>When an unknown printer took a galley of type and scambled it to make a type specimen book</li>
+            <li>Dummy text ever since the 1500s</li>
+        </ul>
+             </div>
+             <div class="polovina polovina2">
+        <p class="x5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            <b>Lorem Ipsum has been the industry's standard</b> dummy text ever since the 1500s, 
+            when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+            <b>It has survived not only five centuries</b>, but also the leap into electronic typesetting.</p>
+        <p class="x6">Memories are like mulligatawny soup in a cheap restaurant. It is best not to stir them.</p>
+             </div>
+        </div>
+     </section>
+
+     <section id="gallery">
+         <h1>The Gallery</h1>
+
+         <div class="image-grid">
+
+             <div class="zoom img1"><a href="slike/g1.jpg" data-lightbox="mygallery"><img class="image-grid-row-2" src="slike/g1.jpg"></a></div>
+             <div class="zoom img2"><a href="slike/g2.jpg" data-lightbox="mygallery"><img src="slike/g2.jpg" width="367px" height="206px"></a></div>
+             <div class="zoom img3"><a href="slike/g3.jpg" data-lightbox="mygallery"><img src="slike/g3.jpg" height="206px"></a></div>
+             <div class="zoom img4"><a href="slike/g4.jpg" data-lightbox="mygallery"><img src="slike/g4.jpg"></a></div>
+             <div class="zoom img5"><a href="slike/g5.jpg" data-lightbox="mygallery"><img src="slike/g5.jpg"></a></div>
+
+         </div>
+     </section>
+
+     <section id="backtothetop">
+     <a href="#"><img src="slike/Back to the top button.png"></a>
+    </section>
+
+     <footer>
+         <div>
+         <ul class="ul1">
+             <li>New York Restaurant</li>
+             <li><a class="bold" href="https://www.google.com/maps/search/3926+anmoore+road/@39.2620906,-80.3024531,14z/data=!3m1!4b1">3926 Anmoore Road</a></li>
+             <li>New York,NY 10014</li>
+             <li><a class="bold" href="tel:718-749-1714">718-749-1714</a></li>
+         </ul>
+
+         <ul class="ul2"> 
+             <li>France Restaurant</li>
+             <li><a class="bold" href="https://www.google.com/maps/place/68+Rue+des+Couronnes,+75020+Paris,+France/@48.8700815,2.3831123,17z/data=!3m1!4b1!4m5!3m4!1s0x47e66dec01ea02a9:0x689f0c073e471545!8m2!3d48.870078!4d2.385301">68, rue de la Courone</a></li>
+             <li>75002 PARIS</li>
+             <li><a class="bold" href="tel:0294236956">02.94.23.69.56</a></li>
+         </ul>
+         
+         <ul class="ul3"> 
+             <li>Blog</li>
+             <li>Career</li>
+             <li>Privacy policy</li>
+             <li>Contact</li>
+         </ul>
+
+         <ul class="ul4">
+             <li><img src="slike/logo_footer.png"></li>
+             <li>&copy;All Rights Reserved 2014.</li>
+             <li>Find More at <a class="bold" href="https://twitter.com/pixelhint">Pixelhint.com</a></li>
+         </ul>
+        </div>
+        </footer>
+
+        <script src="JS/lightbox-plus-jquery.min.js"></script>
+
+    <script src="JS/RESTO JS.js"></script>
+</body>
+</html>
