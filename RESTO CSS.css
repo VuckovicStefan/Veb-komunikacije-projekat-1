@@ -82,24 +82,6 @@ header a{
     top: 60%;
     position: absolute;
 }
-.p2::before{
-    width: 50px;
-    height: 1px;
-    content: "";
-    background: white;
-    position: absolute;
-    left: -100px;
-    top: 55%;
-}
-.p2::after{
-    width: 50px;
-    height: 1px;
-    content: "";
-    background: white;
-    position: absolute;
-    right: -100px;
-    top: 55%;
-}
 .btmsliders{
     display: flex;
     justify-content: center;
