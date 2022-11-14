@@ -40,12 +40,6 @@ function showImg(e){
     sliders[indexValue-1].style.background="rgb(250, 48, 48)";
 }
 
-
-/*----------------------------------------------DISHES SLIDER----------------------------------------------*/ 
-
-
-
-
 /*----------------------------------------------OTVARANJE MENIJA----------------------------------------------*/ 
 
 
@@ -77,22 +71,3 @@ menimobile.classList.remove("kkk");
 });
 
 
-/*----------------------------------------------LIKE HEART----------------------------------------------*/ 
-
-
-const likeHeart = document.querySelectorAll(".heart");
-
-
-likeHeart.forEach(element => {
-  element.addEventListener("click", ()=>{
-    let count = element.querySelector("#count");
-
-    if (element.classList.contains("clicked")) {
-      element.classList.remove("clicked");
-      count.textContent--;
-    } else {
-      element.classList.add("clicked");
-      count.textContent++;
-    }
-  })
-});
